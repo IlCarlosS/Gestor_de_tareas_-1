@@ -1,0 +1,35 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.sidebar{
+    background-color: v.$azul_gris;
+    padding: 2rem;
+    h2{
+        color: v.$blanco;
+        margin: 0;
+        text-align: center;
+    }
+    p{ 
+        color: v.$blanco;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sidebar-nav{
+        margin-top: 5rem;
+        a{
+            color: v.$blanco;
+            display: block;
+            margin-bottom: 1.5rem;
+            padding: 0.7rem;
+            transition-property: background-color ;
+            transition-duration: 300ms;
+            font-size: 1.6rem;
+
+            &:hover{
+                background-color: v.$melocoton_oscuro;
+                border-radius: 0.8rem ;
+                font-weight: bold;
+            }
+        }
+    }
+}

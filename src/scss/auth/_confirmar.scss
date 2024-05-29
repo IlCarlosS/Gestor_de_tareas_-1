@@ -1,0 +1,18 @@
+// estilo pagina confirmar.php
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.confirmar {
+    margin-top: 5rem;
+    .estilo{
+        @include m.textoDegradado (v.$azul_gris);
+    }
+
+    .acciones{
+        justify-content: center ;
+        a{
+            color: v.$azul_gris;
+        }
+    }
+
+}
