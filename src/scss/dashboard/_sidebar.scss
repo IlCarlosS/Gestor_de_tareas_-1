@@ -25,7 +25,7 @@
             transition-duration: 300ms;
             font-size: 1.6rem;
 
-            &:hover{
+            &:hover, &.activo{
                 background-color: v.$melocoton_oscuro;
                 border-radius: 0.8rem ;
                 font-weight: bold;
